@@ -44,4 +44,7 @@ public class User {
     public void setGruopList(List<String> gruopList) {
         this.gruopList = gruopList;
     }
+
+    public User() {
+    }
 }

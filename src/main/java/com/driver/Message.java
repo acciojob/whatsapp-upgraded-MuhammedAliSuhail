@@ -40,4 +40,13 @@ public class Message {
     public void setUserMobail(String userMobail) {
         UserMobail = userMobail;
     }
+
+    public Message(int id, String content, Date timestamp) {
+        this.id = id;
+        this.content = content;
+        this.timestamp = timestamp;
+    }
+
+    public Message() {
+    }
 }
