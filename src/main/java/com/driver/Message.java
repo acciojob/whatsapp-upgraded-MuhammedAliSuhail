@@ -41,7 +41,7 @@ public class Message {
         UserMobail = userMobail;
     }
 
-    public Message(int id, String content, Date timestamp) {
+    public Message(int id, Date timestamp,String content) {
         this.id = id;
         this.content = content;
         this.timestamp = timestamp;
